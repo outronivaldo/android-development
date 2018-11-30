@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="name">Name:</string>
+    <string name="email">E-mail:</string>
+    <string name="sex">Sex:</string>
+    <string name="receive_email">Receive E-mail</string>
+    <string name="note">Note</string>
+    <string name="quit">Quit</string>
+    <string name="submit">Submit</string>
+</resources>
