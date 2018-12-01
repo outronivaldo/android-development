@@ -8,38 +8,277 @@
         android:padding="16dp"
         tools:context=".MainActivity"
         android:orientation="vertical"
+
         android:background="#6495ED">
 
-        <TextView
-                android:layout_width="wrap_content"
+        <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:text="@string/city"
-        />
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#B0C4DE"
+        >
 
-        <TextView
-                android:id="@+id/textViewCity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:layout_marginBottom="15dp"
-                android:text="Name of city"
-        />
+                <TextView
+                        android:id="@+id/textViewCity0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
 
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:text="@string/temperature"
-        />
+                <TextView
+                        android:id="@+id/textViewTemperature0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
 
-        <TextView
-                android:id="@+id/textViewTemperature"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30sp"
-                android:text="Temperature of City"
-        />
         <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#B0C4DE"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#B0C4DE"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#B0C4DE"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="#B0C4DE"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+        >
+
+                <TextView
+                        android:id="@+id/textViewCity9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Name of city"
+                />
+
+                <TextView
+                        android:id="@+id/textViewTemperature9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Temperature of City"
+                />
+        </LinearLayout>
+
+        <!-- END -->
+
+
+
+
 
 </LinearLayout>
